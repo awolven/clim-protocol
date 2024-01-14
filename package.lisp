@@ -5,6 +5,9 @@
 	   #:medium
 	   #:port
 	   #:mirrored-sheet-mixin
+	   #:presentation
+	   #:presentation-object
+	   #:presentation-type
 	   #:handle-event
 	   #:device-event
 	   #:keyboard-event
@@ -30,4 +33,7 @@
 	   #:pointer-event-native-x
 	   #:pointer-event-native-y
 	   #:pointer-event-pointer))
+
+(defpackage :clim-internals
+  (:use :clim :common-lisp))
 

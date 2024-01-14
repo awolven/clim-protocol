@@ -6,4 +6,6 @@
 
 (defclass clim:mirrored-sheet-mixin () ())
 
+(defclass clim:presentation () ())
+
 (defvar clim:*default-frame-manager*)
