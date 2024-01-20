@@ -32,7 +32,8 @@
 	   #:pointer-event-y
 	   #:pointer-event-native-x
 	   #:pointer-event-native-y
-	   #:pointer-event-pointer))
+	   #:pointer-event-pointer
+	   #:accept))
 
 (defpackage :clim-internals
   (:use :clim :common-lisp))
